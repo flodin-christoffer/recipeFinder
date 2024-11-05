@@ -1,5 +1,13 @@
+import DesktopSidebar from "./DesktopSidebar";
+import MobileSidebar from "./MobileSidebar";
+
 const Sidebar = () => {
-    return ( <div>Sidebar</div> );
+    //fragments då går det med multiple children
+    return ( 
+    <>
+    <DesktopSidebar></DesktopSidebar>
+    <MobileSidebar></MobileSidebar>
+    </> );
 }
  
 export default Sidebar;
